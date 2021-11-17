@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
 </head>
 <body>
     <section>
         <div id="upgrade">
-
+            <div class="upgradebutton">effettua l'upgrade</div>
         </div>
     </section>
     <nav>
         <div id="navigation">
             <div class="navsup">
-                <img src="img/logo-small.svg" alt="">
-                <img src="img/home.svg" alt="">
-                <img src="img/search.svg" alt="">
-                <img src="img/libreria.svg" alt="">
+                <a href=""><img src="img/logo-small.svg" alt=""></a>
+                <a href=""><img src="img/home.svg" alt=""></a>
+                <a href=""><img src="img/search.svg" alt=""></a>
+                <a href=""><img src="img/libreria.svg" alt=""></a>
             </div>
             <div class="navinf">
-                <img src="img/download.svg" alt="">
-                <img src="img/profile.svg" alt="">
+                <a href=""><img class="downloadbutton" src="img/download.svg" alt=""></a>
+                <a href=""><img class="imgprofile" src="img/profile.svg" alt=""></a>
             </div>
         </div>
     </nav>
@@ -31,7 +32,57 @@
         <div id="allmusic"></div>
     </main>
     <footer>
-        <div id="musicplayer"></div>
+        <div id="musicplayer">
+            <div class="playerleft">
+                <div class="playerleftimage">
+                    <a href=""><img src="img/sinister.jpeg" alt=""></a>
+                </div>
+                <div class="playerlefttext">
+                    <h3>Sinister</h3>
+                    <h4>Brano</h4>
+                    <p>Nome</p>
+                </div>
+                <div class="playerleftoptions">
+                    <a href=""><i class="far fa-heart"></i></a>
+                    <a href=""><i class="far fa-folder"></i></a>
+                </div>
+            </div>
+            <div class="playercent">
+                <div class="playercentsup">
+                    <a href=""><i class="fas fa-random"></i></a>
+                    <a href=""><i class="fas fa-step-backward"></i></a>
+                    <div class="playbutton">
+                        <a href=""><i class="far fa-play-circle"></i></a>
+                    </div>
+                    <a href=""><i class="fas fa-step-forward"></i></a>
+                    <a href=""><i class="fas fa-redo-alt"></i></a>
+                    
+                </div>
+                <div class="playercentinf">
+                    <span>0:25</span>
+                    <div class="musicprogress">
+                        <span class="musicstart"></span>
+                        <div class="musicprogress-bar">
+                          <div class="musicnow"></div>
+                        </div>
+                        <span class="musicend"></span>
+                    </div>
+                    <span>4:35</span>
+                </div>
+            </div>
+            <div class="playerright">
+                <a href=""><i class="fas fa-list"></i></a>
+                <a href=""><i class="fas fa-desktop"></i></a>
+                <a href=""><i class="fas fa-volume-up"></i></a>
+                <div class="volumeprogress">
+                    <span class="volumestart"></span>
+                    <div class="volumeprogress-bar">
+                      <div class="volumenow"></div>
+                    </div>
+                    <span class="volumeend"></span>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
