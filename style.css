@@ -59,7 +59,7 @@ nav{
 
 #allmusic{
     width: 100%;
-    height: 100%;
+    height: 1000px;
     position: relative;
     background-color: darkgrey;
     right: 0px;
@@ -232,42 +232,122 @@ nav{
 /* upgrade */
 
 #upgrade{
-    height: 100px;
+    height: 80px;
     width: 100%;
-    position: relative;
     background-color: black;
     right: 0px;
     top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    position: relative;
 }
 .upgradebutton{
-    
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 5px 5px;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    text-transform: uppercase;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  section,main{
+/* allmusic */
+section,main{
     float: right;
     width: calc(100% - 40px);
 }
-section{
-    height: 80px;
+.sectiontop{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
 }
-main{
-    height: 1000px;
+.sectionbottom{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    clear: both;
 }
+.sectiontop h3, .sectionbottom h3{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.sectionbottomleft{
+    padding-right: 20px;
+}
+
+
+/* main */
+
+.mainsamemargin{
+    padding: 10px 10px;
+}
+.maintitle{
+    display: block;
+
+}
+.maintitle h2{
+    font-size: 16px;
+    color: white;
+}
+.allalbums{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.albumandtitle{
+    width: 130px;
+    height: auto;
+    margin-top: 5px;
+}
+.allalbums img{
+    width: 130px;
+    height: auto;
+}
+.albumandtitle h3{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+.albumandtitle h4{
+    color: grey;
+    font-size: 10px;
+    margin: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
